@@ -52,7 +52,7 @@ class ConfigCacheCommand extends Command
      *
      * @throws \LogicException
      */
-    public function handle()
+    public function handle(): void
     {
         $this->callSilent('config:clear');
 
